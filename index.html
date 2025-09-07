@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>পন্ডিতমশাই | AI Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link id='favicon' rel="shortcut icon" href="1.png" type="image/x-png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-aurora"></div>
+
+    <div class="page-wrapper">
+        <div class="chat-container">
+            <header class="chat-header">
+                <i class="fas fa-brain header-icon"></i>
+                <h1>পন্ডিতমশাই</h1>
+                <span class="ai-status-indicator"></span>
+            </header>
+            <div class="chat-messages" id="chatMessages">
+                <!-- Messages will be dynamically inserted here -->
+            </div>
+            <div class="typing-indicator-area" id="typingIndicatorArea">
+                <!-- Typing indicator will appear here -->
+            </div>
+            <footer class="chat-input-area">
+                <textarea id="userInput" placeholder="Ask anything..." rows="1"></textarea>
+                <button id="sendButton" aria-label="Send Message">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </footer>
+        </div>
+
+        <footer class="page-footer">
+            <p>© Shuvo Singh Partho | All rights reserved</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/shuvosiinghpartho" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/shuvosinghpartho/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/shuvosinghparth" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/shuvosinghpartho" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
